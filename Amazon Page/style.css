@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1 em;
+    background-color: rgb(233, 237, 238);
+
+}
+
+#no-underline {
+    text-decoration: none;
+}
+#no-underline:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+/* HEADER------------------------- */
+header div {
+    background-color: rgb(34, 47, 63);
+    width: 100%;
+}
+
+header img {
+    margin: 15px 0px 15px 3%;
+    width: 130px;
+}
+
+
+nav {
+    background-color: rgb(54, 71, 89);
+    width: 100%;
+    margin: top: 100px;
+}
+
+nav li:hover {
+    color:grey;
+}
+
+
+nav li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/* MAIN-----------------------------*/
+
+main {
+    padding: 25px;
+    text-align: center;
+}
+
+#yellow-banner {
+    background-color: rgb(245, 102, 0);
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    ;
+}
+
+#presents {
+    background-image: url(assets/images/bg-image.png);
+    height: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#presents div {
+    padding: 70px;
+    margin-top: 30px;
+    color: white;
+}
+
+#presents h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#presents p {
+    font-weight: bold;
+}
+
+/* ----------------------------- */
+
+#multi-images {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+    ;
+}
+
+
+#multi-images div {
+    width: 100%;
+
+}
+
+#multi-images p {
+    font-size: 22px;
+    display: inline-block;
+}
+
+
+#multi-images span {
+    color: rgb(47, 109, 94);
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 10 px;
+}
+
+#multi-images p,
+span {
+    margin-bottom: 20px;
+}
+
+#multi-images article img {
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px grey;
+
+}
+
+#multi-images img:hover {
+    box-shadow: 5px 10px 20px rgb(47,110,96);
+}
+
+#multi-images article {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#four-images {
+    text-align: center;
+}
+
+/* ----------------------------*/
+
+#videogames-sound {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#videogames-sound img {
+    object-fit: cover;
+    width: 1197px;
+}
+
+#videogames-sound p {
+    font-size: 20px;
+    display: inline-block;
+}
+
+#videogames-sound span {
+    color: rgb(47, 109, 94);
+    font-weight: bold;
+    margin-left: 22px;
+    font-size: 10 px;
+}
+
+/* aside------------------- */
+
+aside {
+    background-color: rgb(54,71,89);
+    text-align: center;
+    padding: 20px 0;
+}
+aside a {
+    color:white;
+    font-weight: bold;
+}
+
+aside a:hover {
+    color:grey;
+}
+
+/* footer----------------- */
+
+footer {
+    background-color: rgb(34,47,63);
+    text-align: center;
+    padding:50px;
+}
+
+footer img {
+    width: 150px;
+}
+
